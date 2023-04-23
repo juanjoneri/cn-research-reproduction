@@ -2,6 +2,9 @@ import os
 import sys
 
 import matplotlib.pyplot as plt
+import matplotlib
+
+matplotlib.use('Agg')
 
 def make_graph(data, title, save):
   markers = ['*', 'o', 's', '^', 'd']
